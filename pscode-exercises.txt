@@ -1,10 +1,16 @@
 // Exercise 1: Calculate the Sum of Two Numbers
 
-(Your pseudocode here)
+Define values
+x = 4, y = 9
 
 // Exercise 2: Check if a Number is Even or Odd
 
-(Your pseudocode here)
+Check to see if the number is even.
+If x / %2 = 0, return "even"
+  else x /%2 !=0, return "odd"
+
+If y / %2 = 0, return "even"
+  else y /%2 !=0, return "odd"
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
@@ -14,6 +20,33 @@ b) Calculate the average of the five numbers.
 c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
 d) Write out the results found from steps b and c with a message describing what they are
 
-(Your pseudocode here)
+Define 5 numbers.
+read x1, x2, x3, x4, x5
+
+Calculate average of 5 numbers
+avg = (x1 + x2 + x3 + x4 + x5)/5
+
+find min
+if (x1 > x2) set min to x1
+  else min max to x2
+if (max < x3) set min to x3
+  else min remains
+if (max < x4) set min to x4
+  else min remains
+if (max < x5) set min to x5
+  else min remains
+
+find max
+if (x1 > x2) set max to x1
+  else set max to x2
+if (max < x3) set max to x3
+  else max remains
+if (max < x4) set max to x4
+  else max remains
+if (max < x5) set max to x5
+  else max remains
+
+Results from b is adding 5 numbers together, and dividing by the quantity, which calculates the average, and is defined as avg.
+Results from c would be setting a value to the min or max, and then using the operator greater or less than to change the definition of the max, if the statement is true, otherwise, it remains the same.
 
 -- END --
